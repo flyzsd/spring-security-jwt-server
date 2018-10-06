@@ -1,4 +1,4 @@
-package com.shudong.spring.oauth2.server.controller;
+package com.shudong.spring.security.jwt.server.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.Authentication;

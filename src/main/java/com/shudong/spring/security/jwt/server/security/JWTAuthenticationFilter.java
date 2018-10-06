@@ -1,4 +1,4 @@
-package com.shudong.spring.oauth2.server.security;
+package com.shudong.spring.security.jwt.server.security;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
@@ -18,7 +18,7 @@ import java.io.IOException;
 import java.time.Instant;
 import java.util.Date;
 
-import static com.shudong.spring.oauth2.server.security.SecurityConstants.*;
+import static com.shudong.spring.security.jwt.server.security.SecurityConstants.*;
 
 public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
     private AuthenticationManager authenticationManager;

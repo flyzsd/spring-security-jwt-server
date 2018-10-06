@@ -1,4 +1,4 @@
-package com.shudong.spring.oauth2.server.security;
+package com.shudong.spring.security.jwt.server.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

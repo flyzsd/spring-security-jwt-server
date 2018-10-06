@@ -1,4 +1,4 @@
-package com.shudong.spring.oauth2.server.security;
+package com.shudong.spring.security.jwt.server.security;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
@@ -18,9 +18,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import static com.shudong.spring.oauth2.server.security.SecurityConstants.HEADER_STRING;
-import static com.shudong.spring.oauth2.server.security.SecurityConstants.SECRET;
-import static com.shudong.spring.oauth2.server.security.SecurityConstants.TOKEN_PREFIX;
+import static com.shudong.spring.security.jwt.server.security.SecurityConstants.HEADER_STRING;
+import static com.shudong.spring.security.jwt.server.security.SecurityConstants.SECRET;
+import static com.shudong.spring.security.jwt.server.security.SecurityConstants.TOKEN_PREFIX;
 
 @Slf4j
 public class JWTAuthorizationFilter extends BasicAuthenticationFilter {

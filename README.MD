@@ -1,0 +1,3 @@
+curl -i -H "Content-Type: application/json" -X POST -d '{"username": "shudong","password": "password"}' http://localhost:8080/api/login
+
+curl -v http://localhost:8080/user/ -H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzaHVkb25nIiwiaXNzIjoic2h1ZG9uZy5jb20iLCJleHAiOjE1Mzg4MjE0MzksImlhdCI6MTUzODgxNzgzOX0.9u-JgN7i7YtvyNVcQwXtWR_5CwiUX03eXBF5gIdkE5NB36wxfMIjEG_ffevssYLruDltsTGDQO4yaXbwaJFNKA"
